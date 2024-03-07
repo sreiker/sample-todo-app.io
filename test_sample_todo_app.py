@@ -17,7 +17,7 @@ driver = webdriver.Remote(
     desired_capabilities= capabilities,
     command_executor= url
 )
-driver.get("http://localhost:8081/")
+driver.get("https://sreiker.github.io/sample-todo-app.io/")
 driver.find_element_by_name("li3").click()
 
 textbox = driver.find_element_by_id("sampletodotext")
