@@ -21,7 +21,7 @@ driver.get("https://www.crestliner.com/")
 time.sleep(2)
 driver.find_element_by_id("modalCloseBtn").click()
 
-//driver.find_element(By.LINK_TEXT, "Deep").click()
+#driver.find_element(By.LINK_TEXT, "Deep").click()
 time.sleep(2)
 
 driver.find_element(By.LINK_TEXT, "Bass/Bay").click()
