@@ -19,7 +19,7 @@ driver = webdriver.Remote(
     command_executor= url
 )
 driver.get("https://www.crestliner.com/")
-time.sleep(2)
+time.sleep(10)
 driver.find_element_by_id("modalCloseBtn").click()
 
 #driver.find_element(By.LINK_TEXT, "Deep").click()
