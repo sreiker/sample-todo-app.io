@@ -18,6 +18,9 @@ driver = webdriver.Remote(
     command_executor= url
 )
 driver.get("https://www.crestliner.com/");
+driver.find_element(By.LINK_TEXT, "Deep").click();
+driver.find_element(By.LINK_TEXT, "Bass/Bay").click();
+driver.find_element(By.LINK_TEXT, "Hunt/Utility").click();
 #driver.get("https://sreiker.github.io/sample-todo-app.io/")
 #driver.find_element_by_name("li3").click()
 
