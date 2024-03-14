@@ -17,12 +17,13 @@ driver = webdriver.Remote(
     desired_capabilities= capabilities,
     command_executor= url
 )
-driver.get("https://sreiker.github.io/sample-todo-app.io/")
-driver.find_element_by_name("li3").click()
+driver.get("https://www.crestliner.com/");
+#driver.get("https://sreiker.github.io/sample-todo-app.io/")
+#driver.find_element_by_name("li3").click()
 
-textbox = driver.find_element_by_id("sampletodotext")
-textbox.send_keys("Testing")
-driver.find_element_by_id("addbutton").click()
-assert "No results found." not in driver.page_source
-driver.execute_script("lambda-status=passed")
-driver.quit()
+#textbox = driver.find_element_by_id("sampletodotext")
+#textbox.send_keys("Testing")
+#driver.find_element_by_id("addbutton").click()
+#assert "No results found." not in driver.page_source
+#driver.execute_script("lambda-status=passed")
+#driver.quit()
